@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: rgba(250, 250, 250, 0.88);
+    backdrop-filter: blur(16px);
+    width: 100%;
+}
+
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.page{
+    min-height: 60vh;
+}
+
+/* -----HOME----- */
+#home, #contact{
+    background-color: #e5e5e5;
+    position: relative;
+}
+img{
+    max-height: 100%;
+}
+.p-big{
+    padding: 150px;
+}
+h1{
+    color: #000;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    font-feature-settings: 'ss01' on;
+}
+#triangle-b-r{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #fafafa;
+    border-left: 100vw solid transparent;
+}
+
+
+h2{
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+}
+.inf-h3{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.inf-span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.b-round{
+    border-radius: 10px;
+}
+.plans-best{
+    background-color: #ffd654;
+}
+.plans-h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+.plans-price-value{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 23px;
+}
+.plans-divider{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.plans-group{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;   
+    color: rgba(0, 0, 0, 0.6);
+}
+.plans-property{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+.faq-number{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFD654;
+}
+.faq-h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.faq-span{
+    font-size: 16px;
+    line-height: 26px;   
+    color: #000000;
+}
+.form-check{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.form-check-label{
+    width: 40%;
+}
+.entry-content > p{
+    display: none;
+}
