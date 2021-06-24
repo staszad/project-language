@@ -41,6 +41,9 @@ h1{
     line-height: 88px;
     font-feature-settings: 'ss01' on;
 }
+.btn-contact{
+    width: 170px;
+}
 #triangle-b-r{
     position: absolute;
     bottom: 0;

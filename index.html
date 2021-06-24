@@ -9,11 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/uploads/2021/05/main.css">
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
     <div class="container-fluid absolute-top p-0">
-        <header class="sticky-top">
+        <header class="sticcky-top">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#home">Home</a>
@@ -29,10 +29,10 @@
                 <div class="col-8 d-flex flex-column align-self-center p-big">
                     <h1>Project language</h1>
                     <div id="header-span">Ucz się języków w towarzystwie najlepszych instruktorów z całej Polski</div>
-                    <a class="btn btn-warning" href="#contact">Zapisz się</a>
+                    <a class="btn btn-warning btn-contact" href="#contact">Zapisz się</a>
                 </div>
                 <div class="col-4 p-0 d-flex justify-content-end">
-                    <img class="img-fluid" src="http://localhost/wordpress/wp-content/uploads/2021/05/london.jpg" alt="Photo of London">
+                    <img class="img-fluid" src="img/london.jpg" alt="Photo of London">
                 </div>
                 <div id="triangle-b-r"></div>
             </div>
@@ -41,14 +41,14 @@
                 <div class="inf-grid m-5 p-5">
                     <div class="row">
                         <div class="inf-element col-sm d-flex flex-wrap flex-lg-nowrap gap-3">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2021/05/native.jpg" alt="native speaker" class="inf-img img-fluid rounded-3 m-5">
+                            <img src="img/native.jpg" alt="native speaker" class="inf-img img-fluid rounded-3 m-5">
                             <div class="align-self-center container-sm">
                                 <h3 class="inf-h3">Native speakerzy</h3>
                                 <div class="inf-span">Nasze zajęcia prowadzą native speakerzy wraz z doświadczonymi nauczycielami</div>
                             </div>
                         </div>
                         <div class="inf-element col-sm d-flex flex-wrap flex-lg-nowrap gap-3">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2021/05/bus.jpg" alt="Yellow, american bus" class="inf-img img-fluid rounded-3 m-5">
+                            <img src="img/bus.jpg" alt="Yellow, american bus" class="inf-img img-fluid rounded-3 m-5">
                             <div class="align-self-center">
                                 <h3 class="inf-h3">Wyjazdy za granicę</h3>
                                 <span class="inf-span">Oferujemy coroczne obozy za granicą. Jest to zdecydowanie najlepszy sposób nauki języków</span>
@@ -57,14 +57,14 @@
                     </div>
                     <div class="row">
                         <div class="inf-element col-sm d-flex flex-wrap flex-lg-nowrap gap-3">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2021/05/toy.jpg" alt="baby toys" class="inf-img img-fluid rounded-3 m-5">
+                            <img src="img/toy.jpg" alt="baby toys" class="inf-img img-fluid rounded-3 m-5">
                             <div class="align-self-center">
                                 <h3 class="inf-h3">Kursy dla każdego</h3>
                                 <span class="inf-span">Zajęcia są dostosowane dla każdego poziomu wiekowego; od dziecka po dorosłego</span>
                             </div>
                         </div>
                         <div class="inf-element col-sm d-flex flex-wrap flex-lg-nowrap gap-3">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2021/05/class.jpg" alt="Teacher explaining materail to students" class="inf-img img-fluid rounded-3 m-5">
+                            <img src="img/class.jpg" alt="Teacher explaining materail to students" class="inf-img img-fluid rounded-3 m-5">
                             <div class="align-self-center">
                                 <h3 class="inf-h3">Nowoczesne metody kształcenia</h3>
                                 <span class="inf-span">Korzystamy ze sprawdzonych, nowoczesnych metod kształcenia, które zapewniają jeszcze przyjemniejszą, a przede wszystkim efektywną naukę</span>
@@ -76,7 +76,7 @@
             <div id="plans" class="page">
                 <h2>Cennik</h2>
                 <div class="d-flex flex-wrap row justify-content-evenly m-0">
-                    <div class="plans b-round col-3 border border-dark p-5">
+                    <div class="plans b-round col-9 m-3 col-lg-3 border border-dark p-5">
                         <h3 class="plans-h3">Kangaroo&Tab;A1-A3</h3>
                         <div class="plans-price pb-3 pt-3 mb-4 border-bottom border-dark border-1">
                             <span class="plans-price-value">25zł</span>
@@ -85,10 +85,11 @@
                         <div class="plans-group mb-4">Przeznaczony dla najmłodszych</div>
                         <div class="plans-property mb-3">grupy 5-cio osobowe</div>
                         <div class="plans-property mb-3">dostęp do aplikacji</div>
-                        <div class="plans-property mb-4">4 godziny w tygodni</div>
+                        <div class="plans-property mb-4">4 godziny w tygodniu</div>
                         <button type="button" class="btn btn-warning">Zadzwoń do nas</button>
                     </div>
-                    <div class="plans b-round col-3 border-warning plans-best p-5">
+                    <div class="w-100 d-block d-lg-none"></div>
+                    <div class="plans b-round col-9 m-3 col-lg-3 border-warning plans-best border-dark p-5">
                         <h3 class="plans-h3">Octopus&Tab;A3-B2+</h3>
                         <div class="plans-price pb-3 pt-3 mb-4 border-bottom border-dark border-1">
                             <span class="plans-price-value">32zł</span>
@@ -97,10 +98,10 @@
                         <div class="plans-group mb-4">Przeznaczony dla młodzieży</div>
                         <div class="plans-property mb-3">grupy 5-cio lub 10-cio osobowe</div>
                         <div class="plans-property mb-3">dostęp do aplikacji</div>
-                        <div class="plans-property mb-4">6 godzin w tygodni</div>
+                        <div class="plans-property mb-4">6 godzin w tygodniu</div>
                         <button type="button" class="btn btn-warning">Zadzwoń do nas</button>
                     </div>
-                    <div class="plans b-round col-3 border border-dark p-5">
+                    <div class="plans b-round col-9 m-3 col-lg-3 border border-dark p-5">
                         <h3 class="plans-h3">Tiger&Tab;B3-C3</h3>
                         <div class="plans-price pb-3 pt-3 mb-4 border-bottom border-dark border-1">
                             <span class="plans-price-value">45zł</span>
@@ -109,7 +110,7 @@
                         <div class="plans-group mb-4">Przeznaczony dla dorosłych</div>
                         <div class="plans-property mb-3">grupy 3 osobowe</div>
                         <div class="plans-property mb-3">dostęp do aplikacji</div>
-                        <div class="plans-property mb-4">6 godzin w tygodni</div>
+                        <div class="plans-property mb-4">6 godzin w tygodniu</div>
                         <button type="button" class="btn btn-warning">Zadzwoń do nas</button>
                     </div>
                 </div>
@@ -181,7 +182,7 @@
                             <button class="btn btn-warning" type="submit" value="wyślij">Wyślij</button>
                         </form>
                     </div>
-                    <img class="img-fluid col-5" src="http://localhost/wordpress/wp-content/uploads/2021/05/redbus.jpg" alt="driver in a red school bus">
+                    <img class="img-fluid col-5 p-0" src="img/redbus.jpg" alt="driver in a red school bus">
                 </div>
             </div>
         </main>
